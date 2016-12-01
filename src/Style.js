@@ -7,6 +7,12 @@ var Style = StyleSheet.create({
 		backgroundColor: '#F4EC0F'
 	},
 
+	topImage: {
+		alignSelf:'center',
+		height:60,
+		width:60
+	},
+
 	labelText: {
 		fontSize: 22,
 		fontFamily: 'Lato',

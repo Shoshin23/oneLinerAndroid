@@ -4,7 +4,7 @@ import Style from './Style';
 import {
     Text,
     View,
-    Navigator,
+    Image,
     AppRegistry
 } from 'react-native';
 
@@ -15,7 +15,9 @@ class oneLiner extends Component {
         return (
             <View style= {Style.rootContainer}>
             	 <View style={Style.topBar}>
+            	 <Image style = {Style.topImage} source={require('../img/topIcon.png')}/>
             	 </View>
+            
             </View>
 
         )
