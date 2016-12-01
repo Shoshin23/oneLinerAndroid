@@ -4,16 +4,18 @@ import Style from './Style';
 import {
     Text,
     View,
+    Navigator,
     AppRegistry
 } from 'react-native';
 
 class oneLiner extends Component {
-	static title = '1Liner'
+	
 
     render() {
         return (
             <View style= {Style.rootContainer}>
-            	<Text style = {Style.labelText}> Hello, 1Liner </Text>
+            	 <View style={Style.topBar}>
+            	 </View>
             </View>
 
         )

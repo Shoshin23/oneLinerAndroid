@@ -13,10 +13,11 @@ var Style = StyleSheet.create({
 		fontWeight: 'normal',
 		textAlign : 'center'
 	},
-	
-	displayContainer: {
-		flex:2,
-		backgroundColor: '#F4EC0F'
+
+	topBar: {
+		height:60,
+		backgroundColor: '#F4EC0F',
+		elevation: 3
 	}
 
 
