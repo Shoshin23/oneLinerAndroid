@@ -1,32 +1,21 @@
 
-// import React, {Component} from 'react';
-// import { 
-// 	Text,
-// 	AppRegistry
-// } from 'react-native';
-
-// class oneLiner extends Component {
-
-// 	render() {
-// 		return (
-// 			<Text> 1Liner </Text>
-// 			)
-// 	}
-// }
-
-// AppRegistry.registerComponent('oneLiner',() => oneLiner)
-
 import React, { Component } from 'react';
+import Style from './Style';
 import {
     Text,
+    View,
     AppRegistry
 } from 'react-native';
 
 class oneLiner extends Component {
+	static title = '1Liner'
 
     render() {
         return (
-            <Text>Hello, React!</Text>
+            <View style= {Style.rootContainer}>
+            	<Text style = {Style.labelText}> Hello, 1Liner </Text>
+            </View>
+
         )
     }
 
