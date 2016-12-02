@@ -13,8 +13,21 @@ var Style = StyleSheet.create({
 		width:60
 	},
 
+	muteButton: {
+		height: 70,
+		width: 100,
+		backgroundColor: 'transparent',
+		borderRadius:25,
+		borderStyle:'solid',
+		borderWidth: 1,
+		alignSelf: 'center',
+		marginTop: 40
+	},
+
 	labelText: {
-		fontSize: 22,
+		fontSize: 15,
+		marginTop: 30,
+		marginLeft: 5,
 		fontFamily: 'Lato',
 		fontWeight: 'normal',
 		textAlign : 'center'
