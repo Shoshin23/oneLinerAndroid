@@ -22,7 +22,8 @@ var Style = StyleSheet.create({
 		borderWidth: 1,
 		alignSelf: 'center',
 		marginTop: 40,
-		justifyContent:'center'
+		justifyContent:'center',
+		elevation: 3
 	},
 
 	labelText: {
