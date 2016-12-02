@@ -21,7 +21,8 @@ var Style = StyleSheet.create({
 		borderStyle:'solid',
 		borderWidth: 1,
 		alignSelf: 'center',
-		marginTop: 40
+		marginTop: 40,
+		justifyContent:'center'
 	},
 
 	labelText: {
